@@ -1,0 +1,83 @@
+body{
+background-color: rgb(72, 86, 14);
+font-family: "Tajawal", sans-serif;
+}
+.mainDiv{
+    direction: rtl; 
+}
+#headerStyle{
+   
+    width: 100%;
+    text-align: center;
+    background-color: rgb(147, 167, 48);
+    color: rgb(13, 14, 14);
+   
+
+}
+.centerDiv{
+
+    
+display: flex;justify-content: center;align-items: center;}
+
+.tabelTasks{
+    margin-top: 100px;
+   
+    
+    
+    background-color: rgb(234, 235, 229);
+    width: 60%;
+
+}
+#h1-Style{
+    display: inline;
+}
+  
+#addBtn{
+    
+    float:right;
+    margin-right: 10px;
+    background-color: aliceblue;
+   
+}
+button{
+    border: none;
+    font-size: 20px;
+    box-shadow: 0 3px 5px rgba(168, 168, 168,0.38);
+}
+button.circular{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    line-height: 0;
+    
+}
+#tasks{
+    padding: 20px;
+}
+.task{
+    display: flex;
+    width: 100%;
+    color: antiquewhite;
+    background-color: rgb(30, 30, 29);
+    transition: box-shadow 0.2s;
+    border-bottom: solid black 1px;
+}
+.done{
+    background-color: rgb(140, 171, 94);
+}
+ .task:hover{
+    box-shadow: 0 3px 15px rgba(97,97,97,0.843);
+ }   
+    
+
+#taskBtn{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#taskBtn{
+    color: azure;
+}
+.Btn{
+    color: aliceblue;
+}
